@@ -36,9 +36,29 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3176089037');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2425959699');
       });
     }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyB3aUMzfjxzGFx7h_GxdZTr3z_etx-H8Dg",
+      authDomain: "quantoauth.firebaseapp.com",
+      projectId: "quantoauth",
+      storageBucket: "quantoauth.appspot.com",
+      messagingSenderId: "373039311105",
+      appId: "1:373039311105:web:23629616cb6f86d0e35300",
+      measurementId: "G-4JVGVTSR9N"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
