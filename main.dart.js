@@ -35593,7 +35593,7 @@ while(true)switch(s){case 0:l={}
 k=p.Jd(25)
 l.a=!1
 o=p.a
-T.M8("hermannkabi.com/auth/code/"+k+"/app/"+o+"/")
+T.M8("https://hermannkabi.com/auth?code="+k+"?app="+o+"/")
 n=O.anc(K.QM("[DEFAULT]"))
 m=O.amv(n,n.gRb().n5(0,o)).hC(0,k).K2().a_B(new F.Vs(l))
 if(l.a){m.aG(0)
